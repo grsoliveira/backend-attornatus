@@ -10,7 +10,8 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
-@Entity(name = "pessoa")
+@Entity
+@Table(name = "pessoa")
 public class Pessoa implements Serializable {
 
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
